@@ -1,13 +1,26 @@
-.DivBienvenida {
+.Centrado {
     width: 100%;
+    align-items: center;
 }
 
 .Bienvenida {
-    color: white;
     text-align: center;
+    animation: cambioColores 2s infinite;
+}
+
+.TXTCentrado {
+    text-align: center;
+}
+
+@keyframes cambioColores {
+    0% {color: #ff0000;} /* Rojo */
+    25% {color: #00ff00;} /* Verde */
+    50% {color: #0000ff;} /* Azul */
+    100% {color: #ffff00;} /* Amarillo */
 }
 
 body {
     background-image: url("esrellas.png");
+    image-rendering: pixelated; /* Para que no se vuelva borrosa la imagen */
     background-size: cover;
 }
