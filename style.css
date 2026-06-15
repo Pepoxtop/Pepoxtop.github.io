@@ -8,18 +8,20 @@
 .Bienvenida {
     text-align: center;
     animation: cambioColores 2s infinite;
+    text-rendering: optimizeSpeed;
 }
 
 .TXTCentrado {
     text-align: center;
     color: white;
+    text-rendering: optimizeSpeed;
 }
 
 @keyframes cambioColores {
     0% {color: #ff0000;} /* Rojo */
     25% {color: #00ff00;} /* Verde */
     50% {color: #0000ff;} /* Azul */
-    100% {color: #ffff00;} /* Amarillo */
+    100% {color: #ff0000;} /* Rojo otra vez por el loop */
 }
 
 body {
