@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+div .SeleccionPagina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .Bienvenida {
     text-align: center;
     animation: cambioColores 2s infinite;
