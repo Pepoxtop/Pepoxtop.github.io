@@ -30,6 +30,7 @@ a:hover { color: white;}
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    gap: 15px;
 }
 
 .Atencion {
